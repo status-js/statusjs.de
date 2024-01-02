@@ -1,0 +1,35 @@
+:root {
+    --text-color: #282c36;
+    --text2-color: #181c26;
+    --background-color: #fff;
+    --background2-color: #cccccc;
+    --background3-color: #888;
+    --accent-color: #7400D7;
+    --accent2-color: #581D67;
+}
+
+html,
+body {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0;
+    font-size: 100%;
+    font-family: "Inter";
+    scroll-behavior: smooth;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+main {
+    min-height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

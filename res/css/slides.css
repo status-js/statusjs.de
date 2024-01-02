@@ -1,0 +1,20 @@
+.slide-full {
+    height: 100vh;
+}
+
+.slide-half {
+    height: 50vh;
+}
+
+.slide-third {
+    height: 33vh;
+}
+
+/*
+Individual Slides 
+*/
+
+#slide1 {
+    background-image: linear-gradient(to bottom right, var(--accent-color), var(--accent2-color));
+    color: #fff;
+}
